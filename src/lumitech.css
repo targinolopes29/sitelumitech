@@ -504,7 +504,7 @@ footer a {
 
 /* Responsive */
 
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .hero h1 {
     font-size: 2rem;
   }
