@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lumitech - Empresa de Tecnologia</title>
+<link rel="stylesheet" href="lumitech.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <nav class="Menu Principal">
+      <a href="#" class="logo" class="Lumitech">Lumitech</a>
+      <div class="links_de_navegação">
+        <a href="#servicos" class="active">Serviços</a>
+        <a href="#projetos" >Projetos</a>
+        <a href="#equipe" >Equipe</a>
+        <a href="#faq" >Ajuda</a>
+        <a href="#contato" >Contato</a>
+        <a href="#login" >Login</a>
+      </div>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="destaque" >
+    <h1>Transformando Ideias em Soluções Tecnológicas</h1>
+    <button onclick="document.getElementById('servicos').scrollIntoView({behavior:'smooth'})">Saiba Mais</button>
+  </section>
+
+  <section id="servicos" >
+    <h2 id="servicos_titulo">Nossos Serviços</h2>
+
+    <div class="lista_de_serviços">
+      <article class="cartão_de_serviço">
+        <span class="material-icons ícone_de_serviço" >support_agent</span> <!--nome do icone:support_agent-->
+        <h3 class="servicos_titulo">Consultoria Tecnológica</h3>
+        <p class="descrição_servicos">Análise estratégica para adoção de soluções inovadoras e eficientes.</p>
+      </article>
+
+      <article class="cartão_de_serviço" >
+        <span class="material-icons ícone_de_serviço">code</span> <!--nome do icone:code-->
+        <h3 class="servicos_titulo">Desenvolvimento Sob Medida</h3>
+        <p class="descrição_servicos">Criação de sistemas personalizados para maximizar a produtividade.</p>
+      </article>
+
+      <article class="cartão_de_serviço" >
+        <span class="material-icons ícone_de_serviço" >integration_instructions</span> <!--nome do icone:integration_instructions-->
+        <h3 class="servicos_titulo">Integração de Sistemas</h3>
+        <p class="descrição_servicos">Unificação de plataformas para otimizar fluxos e comunicação.</p>
+      </article>
+
+      <article class="cartão_de_serviço" >
+        <span class="material-icons ícone_de_serviço" >security</span> <!--nome do icone:security-->
+        <h3 class="servicos_titulo">Segurança Cibernética</h3>
+        <p class="descrição_servicos">Proteção avançada contra ameaças digitais e vulnerabilidades.</p>
+      </article>
+
+      <article class="cartão_de_serviço">
+        <span class="material-icons ícone_de_serviço" >analytics</span> <!--nome do icone:analytics-->
+        <h3 class="servicos_titulo">Análise de Dados</h3>
+        <p class="descrição_servicos">Transformação de dados em insights para decisões assertivas.</p>
+      </article>
+
+      <article class="cartão_de_serviço" >
+        <span class="material-icons ícone_de_serviço">cloud</span> <!--nome do icone:cloud-->
+        <h3 class="servicos_titulo">Computação em Nuvem</h3>
+        <p class="descrição_servicos">Migração e gestão de infraestrutura em nuvem eficiente.</p>
+      </article>
+
+    </div>
+  </section>
+  <!--serviços pronto-->
+
+
+ <section id="projetos">
+    <h2 id="projetos_titulo">Nossos Projetos</h2>
+
+    <div class="grade_projetos">
+
+      <article class="cartao_projetos" >
+        <img src="src/style/img/serviços de tecnologia.jpeg" alt="Serviços de Tecnologia"> 
+        <div class="info_projeto">
+          <h3 class="projetos_titulo">Serviços de Tecnologia</h3>
+          <p class="descricao_projetos">Desenvolvimento de sites, apps e sistemas sob medida.</p>
+        </div>
+      </article>
+
+      <article class="cartao_projetos" >
+        <img src="src/style/img/Profissionais Especializados.jpeg" alt="Profissionais Especializados">
+        <div class="info_projeto">
+          <h3 class="projetos_titulo">Profissionais Especializados</h3>
+          <p class="descricao_projetos">Time experiente em tecnologia, design e inovação.</p>
+        </div>
+      </article>
+
+      <article class="cartao_projetos">
+        <img src="src/style/img/duvidas frequentes.png" alt="duvidas frequentes">
+        <div class="info_projeto">
+          <h3 class="projetos_titulo">Dúvidas Frequentes</h3>
+          <p class="descricao_projetos">Respostas rápidas sobre serviços, prazos e suporte.</p>
+        </div>
+      </article>
+
+    </div>
+  </section>
+  <!--projetos pronto-->
+
+  
+  <section id="equipe" aria-labelledby="equipe-title">
+    <h2 id="equipe_titulo">Nossa Equipe</h2>
+
+    <div class="grade_equipe">
+
+      <div class="membro_equipe">
+         <img src="src/style/img/alan.jpeg" alt="" class="member-photo">
+        <p class="membro_nome">Alan César</p>
+        <p class="membro_funcao">Lider de desenvolvimento</p>
+      </div>
+
+      <div class="membro_equipe">
+        <img src="src/style/img/cicinha.jpeg" alt="" class="member-photo">
+        <p class="membro_nome">Cícera Fernândez</p>
+        <p class="membro_funcao"> Arquitetura de Soluções</p>
+      </div>
+
+      <div class="membro_equipe">
+        <img src="src/style/img/ksousa.jpeg" alt="" class="member-photo">
+        <p class="membro_nome">Lucas Sousa</p>
+        <p class="membro_funcao">CEO e Gestão de TI</p>
+      </div>
+
+      <div class="membro_equipe">
+        <img src="src/style/img/mara.jpeg" alt="" class="member-photo">
+        <p class="membro_nome">Mara Sousa</p>
+        <p class="membro_funcao">Segurança da Informação</p>
+      </div>
+
+    </div>
+  </section>
+  <!--equipe pronto-->
+
+  
+  <section id="ajuda">
+    <h2 id="ajuda_titulo">Ajuda - Perguntas Frequentes</h2>
+
+    <div class="ajuda_lista">
+
+      <details>
+        <summary>Quais tipos de serviços tecnológicos vocês oferecem?</summary>
+        <div class="ajuda_conteudo">Oferecemos consultoria tecnológica, desenvolvimento de software personalizado, integração de sistemas, segurança cibernética, análise de dados e computação em nuvem.</div>
+      </details>
+
+      <details>
+        <summary>Como funciona o processo de desenvolvimento?</summary>
+        <div class="ajuda_conteudo">Nosso processo inclui: análise de requisitos, planejamento, desenvolvimento, testes e entrega final com suporte.
+
+</div>
+      </details>
+
+      <details>
+        <summary>Vocês oferecem suporte técnico após a entrega?</summary>
+        <div class="ajuda_conteudo">Sim, oferecemos suporte para correções, ajustes e esclarecimento de dúvidas durante o período de garantia. Também disponibilizamos planos de manutenção para melhorias, atualizações e novas funcionalidades.</div>
+      </details>
+
+      <details>
+        <summary>Como funciona a contratação e área de login para clientes?</summary>
+        <div class="ajuda_conteudo">Clientes podem acessar a área de login para acompanhar o andamento dos serviços contratados, enviar solicitações e receber atualizações.</div>
+      </details>
+
+      <details>
+        <summary>A empresa atende projetos internacionais?</summary>
+        <div class="ajuda_conteudo">Sim, temos experiência e estrutura para atender demandas de clientes internacionais, adequando nossas soluções conforme o mercado e legislação local.</div>
+      </details>
+
+    </div>
+  </section>
+  <!--ajuda pronto-->
+
+
+  <section id="contato">
+    <h2 id="contato-title">Entre em Contato</h2>
+
+    <form onsubmit="event.preventDefault(); alert('Formulário enviado com sucesso!');">
+      <label for="nome">Nome completo</label>
+      <input type="text" id="nome" name="nome" required placeholder="Seu nome completo" autocomplete="name" />
+
+      <label for="email">E-mail</label>
+      <input type="email" id="email" name="email" required placeholder="seu@email.com" autocomplete="email" />
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" required placeholder="Escreva sua mensagem"></textarea>
+
+      <button type="submit">Enviar Mensagem</button>
+    </form>
+  </section>
+  <!--contato pronto-->
+
+  <section id="login">
+    <h2 id="login_titulo">Área do Cliente</h2>
+
+    <div class="login_container">
+      <h3>Faça seu login</h3>
+
+      <form class="login_form" onsubmit="event.preventDefault(); alert('Login simulado!');">
+        <input type="email" id="login-email" name="login-email" placeholder="E-mail" required autocomplete="username"/>
+        <input type="password" id="login-senha" name="login-senha" placeholder="Senha" required autocomplete="current-password"/>
+        <button type="submit">Entrar</button>
+      </form>
+      <a href="#" class="login_link">Esqueceu sua senha?</a>
+    </div>
+  </section>
+
+</main>
+<!--login pronto-->
+
+
+<footer>
+  <p>© 2025 Lumitech - Todos os direitos reservados a Samara Lopes e Thaís Targino | <a href="#contato">Contato</a></p>
+</footer>
+
+</body>
+</html>
+
+
