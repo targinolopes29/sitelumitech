@@ -496,13 +496,12 @@ footer {
   color: white;
   text-align: center;
   font-size: 0.95rem;
+  background-color: white;
+  color: var(--color-primary);
 }
 
-footer a {
-  color: #bbdefb;
-}
 
-/* Responsive */
+/* Responsividade */
 
 @media (max-width: 768px) {
   .hero h1 {
